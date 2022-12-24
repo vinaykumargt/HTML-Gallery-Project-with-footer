@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.navbarright{
+    display: flex;
+    align-items: center;
+}
+
+.navbarleft.logo{
+    display: block;
+    height: 50px;
+    width: 50px;
+
+}
+
+ .home ,.login, .signup{
+    color: black;
+    margin-right: 20px;
+}
+
+.footer.login, .signup, .contactus, .feedback, .login, .feedback, .helpsupport{
+    display: flex;
+    margin-right: 25px;
+}
